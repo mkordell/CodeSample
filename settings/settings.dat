@@ -1,0 +1,24 @@
+
+##The settings below will be read in and used to generate events##
+
+# NumE is the number of events that the user wants to run
+NumE     1000
+
+# nuc* denotes the type of nucleus participating: 0=single nucleon, 1=deuteron, 2=heavy
+nucA     2
+nucB     2
+
+# npro* denotes how many protons are in the nucleus (ensure this matches type setting)
+nproA    82
+nproB    82
+
+# nneu* denotes how many neutrons are in the nucleus (also ensure this matches type setting)
+nneuA    126
+nneuB    126
+
+# these denote the bin files used by the histograms for collision statistics
+binfilen settings/binfile_n.dat
+binfilea settings/binfile_a.dat
+
+# output file where the final event statistics are written to
+outfile  output.dat
